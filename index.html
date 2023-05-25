@@ -441,19 +441,23 @@
           Leave your contacts and we will call you back
         </p>
         <form class="contact-form">
-          <label class="contact-form-field-wrapper">
-            <span class="contact-form-field-desc">Name</span>
-            <span class="contact-form-input-wrapper">
-              <input
-                class="contact-form-input"
-                type="text"
-                name="user_first_name"
-                required
-                pattern="[a-zA-Zа-яА-ЯіІїЇґҐєЄʼ]+"
-              />
-              <span class="contact-form-input-icon"></span>
-            </span>
-          </label>
+          <div class="container-lable">
+            <label class="contact-form-field-wrapper">
+              <div class="container-input-icon">
+                <span class="contact-form-field-desc">Name</span>
+                <span class="contact-form-input-wrapper">
+                  <input
+                    class="contact-form-input"
+                    type="text"
+                    name="user_first_name"
+                    required
+                    pattern="[a-zA-Zа-яА-ЯіІїЇґҐєЄʼ]+"
+                  />
+                  <span class="contact-form-input-icon"></span>
+                </span>
+              </div>
+            </label>
+          </div>
 
           <label class="contact-form-field-wrapper">
             <span class="contact-form-field-desc">Phone</span>
