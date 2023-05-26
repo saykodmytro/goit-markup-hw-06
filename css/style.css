@@ -490,24 +490,30 @@ body {
   border: 1px solid var(--bg-color-head);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  /* background-color: var(--color-text-sec); */
   background-color: transparent;
 }
 
 .btn-foot-subscr {
   display: flex;
+  justify-content: center;
   align-items: center;
   text-align: center;
   min-width: 165px;
   height: 40px;
 
-  font-family: "Roboto";
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--bg-color-head);
   background-color: var(--color-logo);
+  border: none;
+  border-radius: 4px;
+}
+
+.svg-modal-close-btn {
+  margin-left: 16px;
 }
 
 /******  /Footer - Form - Subscr ******/
