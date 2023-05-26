@@ -450,6 +450,11 @@ body {
 
 /****** SVG - Footer ******/
 
+.container-foot-svg {
+  outline: 1px solid red;
+  margin-right: 80px;
+}
+
 .container-foot-svg .menu-social-svg {
   gap: 16px;
 }
@@ -459,6 +464,48 @@ body {
   background-color: var(--color-svg-social-hov);
 }
 /****** /SVG - Footer ******/
+
+/******  Footer - Form - Subscr ******/
+
+.container-footer-form-cont {
+  outline: 1px solid red;
+}
+
+.cont-form-footer {
+  display: flex;
+}
+
+.form-lable-footer {
+}
+
+.cont-form-inp-footer {
+  width: 264px;
+  height: 40px;
+  margin-right: 24px;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: var(--color-text-sec);
+}
+
+.btn-foot-subscr {
+  min-width: 165px;
+  height: 40px;
+
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--bg-color-head);
+  background-color: var(--color-logo);
+}
+
+/******  /Footer - Form - Subscr ******/
 
 /* ********** Hero-Portfolio ********** */
 
@@ -747,6 +794,7 @@ body {
   border: 1px solid var(--color-text-sec);
   border-radius: 2px;
   fill: transparent;
+  cursor: pointer;
 }
 
 .chek-box:checked + .form-label-chekbox > .container-checkbox-svg {
@@ -756,6 +804,10 @@ body {
   border-color: #404bbf;
 }
 
+.chek-box:focus + .form-label-chekbox > .container-checkbox-svg {
+  border-color: var(--color-logo);
+}
+
 .accept-link {
   color: var(--color-logo);
 }
@@ -763,23 +815,13 @@ body {
 .visually-hidden {
   position: absolute;
   appearance: none;
-
-  /* white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px; */
 }
 
 .btn-form-submit {
   display: block;
   min-width: 169px;
   height: 56px;
-  margin: auto;
+  margin: 0 auto;
   background: var(--color-logo);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
