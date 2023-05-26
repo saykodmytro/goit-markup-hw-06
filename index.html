@@ -506,31 +506,24 @@
             ></textarea>
           </div>
 
-          <!-- 
-          <label class="contact-form-field-wrapper">
-            <span class="contact-form-field-desc">Comment</span>
-            <textarea
-              class="contact-form-message"
-              name="user_message"
-              placeholder="Text input"
-            ></textarea>
-          </label>
-
-          <label class="contact-form-checkbox-wrapper">
+          <div class="container-chekbox">
             <input
-              class="contact-form-checkbox"
+              class="visually-hidden"
               type="checkbox"
-              name="user_policy"
-              required
+              name="user-privacy"
+              id="user-privacy"
+              value="true"
             />
-            <svg class="contact-form-own-checkbox" width="20" height="20">
-              <use
-                class="contact-form-checkmark-icon"
-                href="./images/sprite.svg#icon-checkmark"
-              ></use>
-            </svg>
-            I accept the terms and conditions of the Privacy Policy
-          </label> -->
+            <label class="form-label-chekbox" for="user-privacy">
+              <span class="container-checkbox-svg"
+                ><svg class="check-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="" class="accept-link link">Privacy Policy</a>
+            </label>
+          </div>
 
           <button type="submit" class="contact-form-submit">Send</button>
         </form>

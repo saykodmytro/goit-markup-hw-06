@@ -681,7 +681,6 @@ body {
 }
 
 .contact-form-input:focus {
-  /* outline: none; */
   border-color: var(--color-logo);
 }
 
@@ -708,8 +707,7 @@ body {
 
 .contact-textarea-form-input {
   width: 100%;
-  padding-left: 16px;
-  padding-top: 8px;
+  padding: 8px 16px;
   height: 120px;
   font-size: 12px;
   line-height: 1.17;
@@ -725,9 +723,30 @@ body {
   transition: border-color var(--trans-time-cubic);
 }
 
-.contact-form-input:focus {
-  /* outline: none; */
+.contact-textarea-form-input:focus {
   border-color: var(--color-logo);
+}
+
+.container-chekbox {
+  margin-bottom: 24px;
+}
+
+.form-label-chekbox {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--color-svg-logo-cust);
+}
+
+.container-checkbox-svg {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  fill: transparent;
 }
 
 /*********** /Modal-Window ***********/
