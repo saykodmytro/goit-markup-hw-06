@@ -507,8 +507,14 @@ body {
   border-radius: 4px;
 }
 
+.btn-foot-subscr:hover,
+.btn-foot-subscr:focus {
+  background-color: var(--color-text-hover-focus);
+}
+
 .svg-foot-subscr {
   margin-left: 16px;
+  fill: var(--bg-color-head);
 }
 
 /******  /Footer - Form - Subscr ******/
@@ -809,10 +815,6 @@ body {
   fill: var(--bg-color-head);
   border-color: var(--color-text-hover-focus);
 }
-
-/* .chek-box:focus + .form-label-chekbox > .container-checkbox-svg {
-  border-color: var(--color-logo);
-} */
 
 .accept-link {
   color: var(--color-logo);
