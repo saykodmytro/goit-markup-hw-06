@@ -671,14 +671,18 @@ body {
 .contact-form-input {
   width: 100%;
   height: 40px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
+  border: 1px solid rgba(46, 47, 66, 0.2);
+  background-color: transparent;
+  outline: transparent;
   border-radius: 4px;
   padding-left: 38px;
+
+  transition: border-color var(--trans-time-cubic);
 }
 
 .contact-form-input:focus {
   outline: none;
-  border-color: #4d5ae5;
+  border-color: var(--color-logo);
 }
 
 .svg-cont-input {
@@ -686,6 +690,11 @@ body {
   top: 50%;
   left: 16px;
   transform: translateY(-50%);
+  transition: fill var(--trans-time-cubic);
+}
+
+.contact-form-input:focus ~ .svg-cont-input {
+  fill: var(--color-logo);
 }
 
 .container-input-svg {
