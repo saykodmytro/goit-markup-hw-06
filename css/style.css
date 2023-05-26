@@ -451,7 +451,6 @@ body {
 /****** SVG - Footer ******/
 
 .container-foot-svg {
-  outline: 1px solid red;
   margin-right: 80px;
 }
 
@@ -466,10 +465,6 @@ body {
 /****** /SVG - Footer ******/
 
 /******  Footer - Form - Subscr ******/
-
-.container-footer-form-cont {
-  outline: 1px solid red;
-}
 
 .cont-form-footer {
   display: flex;
@@ -501,7 +496,7 @@ body {
   min-width: 165px;
   height: 40px;
 
-  font-family: inherit;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -512,7 +507,7 @@ body {
   border-radius: 4px;
 }
 
-.svg-modal-close-btn {
+.svg-foot-subscr {
   margin-left: 16px;
 }
 
