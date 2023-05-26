@@ -749,7 +749,7 @@ body {
   fill: transparent;
 }
 
-.chek-box:checked + .form-label-chekbox .container-checkbox-svg {
+.chek-box:checked + .form-label-chekbox > .container-checkbox-svg {
   background-color: var(--color-text-hover-focus);
   border: none;
   fill: #ffffff;
@@ -762,7 +762,9 @@ body {
 
 .visually-hidden {
   position: absolute;
-  white-space: nowrap;
+  appearance: none;
+
+  /* white-space: nowrap;
   width: 1px;
   height: 1px;
   overflow: hidden;
@@ -770,7 +772,7 @@ body {
   padding: 0;
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
-  margin: -1px;
+  margin: -1px; */
 }
 
 .btn-form-submit {
