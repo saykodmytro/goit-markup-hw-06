@@ -692,7 +692,7 @@ body {
   transition: fill var(--trans-time-cubic);
 }
 
-.contact-form-input:focus ~ .svg-cont-input {
+.contact-form-input:focus + .svg-cont-input {
   fill: var(--color-logo);
 }
 
@@ -744,9 +744,35 @@ body {
   justify-content: center;
   width: 16px;
   height: 16px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
+  border: 1px solid var(--color-text-sec);
   border-radius: 2px;
   fill: transparent;
 }
 
+.chek-box:checked + .form-label-chekbox .container-checkbox-svg {
+  background-color: var(--color-text-hover-focus);
+  border: none;
+}
+
+.chek-box:checked + .form-label-chekbox .container-checkbox-svg .check-icon {
+  fill: #ffffff;
+  border-color: #404bbf;
+}
+
+.accept-link {
+  color: var(--color-logo);
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
 /*********** /Modal-Window ***********/
