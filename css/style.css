@@ -476,23 +476,28 @@ body {
 }
 
 .form-lable-footer {
+  margin-right: 24px;
 }
 
 .cont-form-inp-footer {
   width: 264px;
   height: 40px;
-  margin-right: 24px;
+  padding-left: 16px;
   font-size: 12px;
-  line-height: 2;
+  line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
-  border: 1px solid #ffffff;
+  color: var(--bg-color-head);
+  border: 1px solid var(--bg-color-head);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  background-color: var(--color-text-sec);
+  /* background-color: var(--color-text-sec); */
+  background-color: transparent;
 }
 
 .btn-foot-subscr {
+  display: flex;
+  align-items: center;
+  text-align: center;
   min-width: 165px;
   height: 40px;
 
