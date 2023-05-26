@@ -805,13 +805,13 @@ body {
 .chek-box:checked + .form-label-chekbox > .container-checkbox-svg {
   background-color: var(--color-text-hover-focus);
   border: none;
-  fill: #ffffff;
-  border-color: #404bbf;
+  fill: var(--bg-color-head);
+  border-color: var(--color-text-hover-focus);
 }
 
-.chek-box:focus + .form-label-chekbox > .container-checkbox-svg {
+/* .chek-box:focus + .form-label-chekbox > .container-checkbox-svg {
   border-color: var(--color-logo);
-}
+} */
 
 .accept-link {
   color: var(--color-logo);
